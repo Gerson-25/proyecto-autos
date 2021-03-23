@@ -1,0 +1,34 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+.bg_color_credicomer
+{
+
+  background: #007161;
+}
+
+.logo_credicomer
+{
+  max-height: 80px;
+  max-width: 255px;
+}
+
+.imagen_responsive
+{
+  width: 100%;
+}
+
+.bg_fondo_pie
+{
+  background: #939393;
+}

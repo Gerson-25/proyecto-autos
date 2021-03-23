@@ -1,0 +1,124 @@
+
+.header-box{
+    
+    height: 100vh;
+}
+
+.list-group .active{
+    border: teal 1px solid !important;
+    background-color: teal !important;
+    color: white !important;
+}
+
+nav{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../images/car_example_2.jpg');
+    height: 70%;
+}
+
+.cars-and-filter-container{
+    background-color: #00695C ;
+}
+
+.header-box-content{
+    height: 100%;
+    width: 100%;
+}
+
+.car-card{
+    background-color: #00695C !important;
+}
+
+.car-card:hover{
+    transition: all .8s ease;
+    animation: expand .8s ease forwards !important;
+}
+
+nav button{
+    background-color: yellow !important;
+    color: #00695C !important;
+    font-size: smaller !important;
+    border: none !important;
+}
+
+.card-title{
+    font-weight: bold !important;
+    font-size: smaller !important;
+}
+.card-text{
+    color: #b2dfdb !important;
+    font-weight: lighter !important;
+    font-size: smaller !important;
+}
+.filter-box-container{
+    
+    height: 100vh;
+    position: sticky !important;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+
+.car-searchbar{
+    color: white !important;
+    border: 1px solid white !important;
+    background-color: teal !important;
+}
+
+.car-searchbar::placeholder { 
+    color: #b2dfdb !important;
+    opacity: 0.5; 
+  }
+  
+  .car-searchbar:-ms-input-placeholder {
+    color: #b2dfdb!important;
+  }
+  
+  .car-searchbar::-ms-input-placeholder {
+    color: #b2dfdb !important;
+  }
+
+  .header-box-info{
+      width: 100%;
+      height: 30%;
+      color: black !important;
+  }
+
+.list-of-cars{
+    color: white !important;
+}
+
+.price-section button{
+    background-color: yellow !important;
+    color: #00695C !important;
+    font-size: smaller !important;
+    border: none !important;
+}
+
+.benefits-box{
+    color: black;
+    height: 100%;
+    width: 20%;
+    border-radius: 10px;
+}
+
+.benefits-box span{
+    font-weight: bold;
+}
+
+.benefits-box:hover span{
+    animation: text-expander 1s;
+    font-size: 1.5rem;
+    color: #00695C;
+}
+
+@keyframes text-expander {
+    0%   {font-size: 1rem;}
+    100% {font-size: 1.5rem;}
+}
+
+.card-image{
+    border-radius: 5px 0px 0px 5px;
+}
