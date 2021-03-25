@@ -202,26 +202,30 @@ input::placeholder {
     }
   }
 
+  .modal-header{
+      background-color: teal !important;
+  }
 
+  .modal-footer .btn-primary{
+    background-color: yellow !important;
+    color: #00695C !important;
+    font-size: smaller !important;
+    border: none !important;
+  }
 
-  .page-item{
-      background-color: #00695C !important;
-    }
-
-    .pagination{
-        background-color: #00695C !important;
-    }
-
-    .Page{
-        background-color: #00695C !important;
-    }
-
+  .carousel{
+      height: 250px !important;
+  }
     .page-link{
         color: white !important;
-        border: none !important;
         background-color: #00695C !important;
     }
 
     .page-link:hover{
+        border: white 1px solid !important;
         background-color: teal !important;
+    }
+
+    .navigation .active a{
+        border: white 1px solid !important;
     }

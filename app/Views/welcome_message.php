@@ -394,14 +394,70 @@
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+				<h5 class="modal-title" id="exampleModalLabel">MARCA Y MODELO DEL VEHICULO</h5>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 			</div>
 			<div class="modal-body">
-      </div><div class="modal-footer">
-		  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-		  <button type="button" class="btn btn-primary">Save changes</button>
-		</div></div>
+
+
+				<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+						<img class="d-block w-100" src="<?php echo base_url('assets/images/carro1.jpg'); ?>" alt="First slide">
+						</div>
+						<div class="carousel-item">
+						<img class="d-block w-100" src="<?php echo base_url('assets/images/carro1.jpg'); ?>" alt="Second slide">
+						</div>
+						<div class="carousel-item">
+						<img class="d-block w-100" src="<?php echo base_url('assets/images/carro1.jpg'); ?>" alt="Third slide">
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			<div>
+				<p>
+				Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+				</p>
+
+				<p>
+				
+					<ul>
+						<li>
+						- Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+						</li>
+						<li>
+						- Etiam ut ipsum facilisis, faucibus ante a, feugiat felis.
+						</li>	
+						<li>
+						- Aliquam quis elit et massa pharetra efficitur.
+						</li>	
+						<li>
+						- Proin accumsan sapien non volutpat pellentesque.
+						</li>		
+					</ul>
+
+				</p>
+
+				<p>
+				Precio: 17,000.00 <br>
+				Cuota: 500.00
+				</p>
+
+			</div>
+
+      		</div>
+	  		<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-primary">Save changes</button>
+			</div>
+		</div>
 	</div>
 </div>
 
